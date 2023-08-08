@@ -5,8 +5,30 @@ const Buttons = (props) => {
   const filterByType = props.filterByType;
   const setSat = props.setSat;
 
-  const FirstButton = () => {
-    return (
+  // const FirstButton = () => {
+  //   return (
+  //     <div>
+  //       {displaySats.map((sat, id) => {
+  //         return (
+  //           <button onClick={() => filterByType(sat)} key={id}> 
+  //             {sat} Orbit
+  //           </button> 
+  //         );
+  //       })}
+  //     </div>
+  //   )
+  // };
+
+  // const SecondButton = () => {
+  //   return (
+  //     <button onClick={setSat(satData)}>
+  //       All Orbits
+  //     </button>
+  //   )
+  // };
+
+  return (
+    <div>
       <div>
         {displaySats.map((sat, id) => {
           return (
@@ -16,21 +38,9 @@ const Buttons = (props) => {
           );
         })}
       </div>
-    )
-  };
-
-  const SecondButton = () => {
-    return (
       <button onClick={setSat(satData)}>
         All Orbits
       </button>
-    )
-  };
-
-  return (
-    <div>
-      <FirstButton />
-      <SecondButton />
     </div>
   );
 };
