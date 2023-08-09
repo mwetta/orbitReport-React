@@ -1,3 +1,5 @@
+import "./styling.css"
+
 const Table = ({ sat }) => {
   const rows = sat.map((data) => {
     return (

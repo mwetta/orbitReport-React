@@ -1,4 +1,4 @@
-h1,
+header,
 p {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-align: center;
@@ -17,7 +17,7 @@ button {
   font-weight: bold;
 }
 
-.flex-container {
+.flexcontainer {
   display: flex;
   justify-content: center;
 }
@@ -51,7 +51,7 @@ td {
   padding: 8px;
 }
 
-h1 {
+header {
   padding: 50px;
   text-align: center;
   background: #5c94ce;

@@ -1,3 +1,5 @@
+import styles from "./styling.css"
+
 export default function Banner() {
     return (
         <>
