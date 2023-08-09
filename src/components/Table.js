@@ -26,7 +26,7 @@ const Table = ({ sat }) => {
             <th>Name</th>
             <th>Type of Satellite</th>
             <th>Launch Date</th>
-            <th>Satus</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody>
